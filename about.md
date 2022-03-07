@@ -3,6 +3,9 @@ title: About
 permalink: "/about/"
 layout: layouts/home.njk
 ---
+{{ title }}
+
+
 Hi, I’m Kushaiah Felisilda, [a filmmaker](https://krabf.com/), editor, writer(?), 
 coffee enthusiast, and a web explorer. This place my weblog. I use this place to express myself, 
 to try out new ideas and ways of being in the world, and to collaborate with others. This is a place to 
