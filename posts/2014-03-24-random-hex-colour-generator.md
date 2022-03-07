@@ -9,46 +9,7 @@ The basic idea is to generate a random hex colour, and update some DOM elements 
 
 ## The Markup
 
-```html
-<h1 id="colour">#e63c44</h1>
-<button id="change">New Colour</button>
-```
-
-## jQuery
-
-```javascript
-$('#change').click(function() {
-  newColour = '#' + ((Math.random() * 0xffffff) << 0).toString(16);
-  $('body').css({background: newColour});
-  $('#change').css({color: newColour});
-  $('#colour').text(newColour);
-});
-```
-
-## UPDATE - 28-06-2015
-
-Long overdue, have included a vanilla JavaScript version as well:
-
-```javascript
-var btn = document.getElementById('change');
-var text = document.getElementById('colour');
-
-var generator = function() {
-  newColour = '#' + ((Math.random() * 0xffffff) << 0).toString(16);
-  console.log(newColour.length);
-  if (newColour.length < 7) {
-    generator();
-  }
-};
-
-btn.addEventListener('click', function() {
-  generator();
-
-  document.body.style.background = newColour;
-  btn.style.color = newColour;
-  text.innerText = newColour;
-});
-```
+We used a _simplified_ Git flow model where we had `master`, `develop` and various feature branches. After reviewing and merging feature branches to `develop`, we'd merge `develop` into `master` and tag `master` with a release version which would then trigger an automated release build.
 
 ## UPDATE II - 17-04-2016
 
