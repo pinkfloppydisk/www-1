@@ -3,7 +3,7 @@ title: About
 permalink: "/about/"
 layout: layouts/home.njk
 ---
-{{ title }}
+<h1>{{ title }}</h1>
 
 
 Hi, I’m Kushaiah Felisilda, [a filmmaker](https://krabf.com/), editor, writer(?), 
