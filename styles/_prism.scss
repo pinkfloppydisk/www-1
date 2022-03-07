@@ -1,22 +1,22 @@
-code[class*='language-'],
-pre[class*='language-'] {
+code,
+pre {
+  color: #fff;
+  background: rgba(53,116,224,.9);
+  overflow-x: auto;
   font-size: 14px;
-  line-height: 1.375;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
-  tab-size: 2;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  background: #272822;
-  color: #f8f8f2;
+  font-family: 'Fira Code', monospace;
+  border-radius: 3px;
 }
+
+code {
+  word-break: break-all;
+  padding: 0.1em;
+}
+
+pre {
+  padding: 1em;
+}
+
 pre[class*='language-'] {
   padding: 1.5em 2em;
   margin: 0.5em 0;
