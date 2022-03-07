@@ -54,8 +54,8 @@ body {
 }
 
 a { 
-  color: inherit; text-decoration: underline; text-decoration-color: #007AFC; border: 0; box-shadow: none; }
-a:hover { text-decoration: underline ; color: #007AFC; }
+  color: inherit; text-decoration-skip-ink: auto; text-decoration-color: #007AFC; border: 0; box-shadow: none; }
+a:hover { text-decoration-skip-ink: auto ; color: #007AFC; }
 
 
 
