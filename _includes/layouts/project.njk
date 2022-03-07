@@ -4,7 +4,7 @@ templateClass: container
 ---
 <img src="/img/featured-images/{{featured_image }}" class="project-featured-image"/>
 <h1 class="title">{{ title }}</h1>
-<p class="meta"><strong>Varietal:</strong> {{varietal}} <br /> <strong>Origin:</strong> {{origin}} <br /> <strong>Producers</strong> {{producers}} <br /> <strong>Flavor Profile:</strong> {{ notes }} </p>
+<p class="meta"><strong>Varietal:</strong> {{varietal}} <br /> <strong>Origin:</strong> {{origin}} <br /> <strong>Producers</strong> {{producers}} <br /> <strong>Flavor Profile:</strong> {{ notes }} <br /> <strong>Process:</strong> {{ process }} </p>
 
 {%- for tag in tags | filterTagList -%}
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
