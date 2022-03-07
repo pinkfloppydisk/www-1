@@ -13,8 +13,8 @@ layout: layouts/home.njk
       <a href="{{ post.url | url }}" class="postlist-link">
       <h2>
         {{ post.data.title }}
-        <p>{{ post.data.summary }}</p>
         </h2>
+        <p>{{ post.data.summary }}</p>
         </a>
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
       <br>
