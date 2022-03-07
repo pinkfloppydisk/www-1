@@ -4,7 +4,7 @@ layout: layouts/home.njk
 
 <section class="section">
   <h1>Writing</h1>
-  <p>A selection of articles on design, engineering, and personal experience.</p>
+
 </section>
 
 <section class="section">
@@ -16,6 +16,7 @@ layout: layouts/home.njk
         </h2>
         </a>
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <br>
     </div>
   {% endfor %}
 </section>
