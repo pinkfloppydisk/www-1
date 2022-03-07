@@ -53,8 +53,13 @@ body {
   font-family: 'Neue Haas Unica', sans-serif;
 }
 
-a { color: inherit; text-decoration: underline; text-decoration-color: #007AFC; border: 0; box-shadow: none; }
-a:hover { color: #007AFC; }
+a { 
+  color: inherit; text-decoration: underline; text-decoration-color: #007AFC; border: 0; box-shadow: none; 
+}
+
+a:hover { 
+  color: #007AFC; 
+}
 
 figure a { box-shadow: none; }
 figure a:hover { box-shadow: none; }
@@ -64,14 +69,3 @@ em { font-style: italic; }
 
 ::selection {
   background: #ffff66; }
-  
-nav a.active {
-  text-decoration: none #007afc; }
-
-
-
-em { font-style: italic; }
-
-::selection {
-  background: #ffff66;
-}
