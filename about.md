@@ -15,7 +15,6 @@ If you want to know more about my work, please check my main [website](https://k
 Get in touch
 
 [Twitter](https://twitter.com/krabf_)
-
 [Instagram](https://instagram.com/krabf)
 
 My hobby is powered by my part time job and [your donations](https://buymeacoff.ee/krabf).
