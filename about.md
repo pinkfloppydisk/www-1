@@ -6,7 +6,7 @@ layout: layouts/home.njk
 <h1>{{ title }}</h1>
 
 
-Hi, I’m Kushaiah, [a filmmaker](https://krabf.com/), editor, tech and coffee enthusiast, and a web explorer. This place my weblog—a musings place, if you fancy that. I use this place to express myself, to build and share my thoughts, ideas and creations, and to learn.
+Hi, I’m Kushaiah, [a filmmaker](https://krabf.com/), editor, tech and coffee enthusiast, and a web explorer. This is a safe space for my musings. I use this place to express myself, to build and share my thoughts, ideas and creations, and to learn.
 
 <hr />
 
